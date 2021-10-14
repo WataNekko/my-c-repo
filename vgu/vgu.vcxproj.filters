@@ -30,6 +30,15 @@
     <ClCompile Include="softmax.c">
       <Filter>Source Files\lesson7</Filter>
     </ClCompile>
+    <ClCompile Include="less7ques1.c">
+      <Filter>Source Files\lesson7</Filter>
+    </ClCompile>
+    <ClCompile Include="less7ques2.c">
+      <Filter>Source Files\lesson7</Filter>
+    </ClCompile>
+    <ClCompile Include="less7ques4.c">
+      <Filter>Source Files\lesson7</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linalg.h">

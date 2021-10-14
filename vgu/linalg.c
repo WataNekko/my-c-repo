@@ -1,4 +1,4 @@
-#define __COMPILE__
+//#define __COMPILE__
 #ifdef __COMPILE__
 
 #include "linalg.h"

@@ -140,6 +140,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="less7ques1.c" />
+    <ClCompile Include="less7ques2.c" />
+    <ClCompile Include="less7ques4.c" />
     <ClCompile Include="linalg.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="softmax.c" />
