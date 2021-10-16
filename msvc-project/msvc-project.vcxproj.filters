@@ -18,7 +18,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lesson8\less8ques1.c">
+    <ClCompile Include="lesson8\less8ques1a.c">
+      <Filter>Source Files\lesson8</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson8\less8ques1b.c">
       <Filter>Source Files\lesson8</Filter>
     </ClCompile>
   </ItemGroup>
