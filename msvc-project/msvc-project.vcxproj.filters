@@ -13,36 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\lesson7">
-      <UniqueIdentifier>{0f355433-555f-4f75-94b1-256d4eb48a67}</UniqueIdentifier>
+    <Filter Include="Source Files\lesson8">
+      <UniqueIdentifier>{997d97db-5ef6-47dd-a4da-21f5f8b5ea04}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="lesson8\less8ques1.c">
+      <Filter>Source Files\lesson8</Filter>
     </ClCompile>
-    <ClCompile Include="test.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="linalg.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="softmax.c">
-      <Filter>Source Files\lesson7</Filter>
-    </ClCompile>
-    <ClCompile Include="less7ques1.c">
-      <Filter>Source Files\lesson7</Filter>
-    </ClCompile>
-    <ClCompile Include="less7ques2.c">
-      <Filter>Source Files\lesson7</Filter>
-    </ClCompile>
-    <ClCompile Include="less7ques4.c">
-      <Filter>Source Files\lesson7</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="linalg.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

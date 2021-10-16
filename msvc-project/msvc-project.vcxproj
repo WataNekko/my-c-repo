@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2e295418-ef21-4a2a-83e0-56dc71db854d}</ProjectGuid>
-    <RootNamespace>vgu</RootNamespace>
+    <ProjectGuid>{3f728841-9c63-4198-b54d-05d71b44aeba}</ProjectGuid>
+    <RootNamespace>msvcproject</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -114,9 +114,8 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <DisableSpecificWarnings>6031;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -140,16 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="less7ques1.c" />
-    <ClCompile Include="less7ques2.c" />
-    <ClCompile Include="less7ques4.c" />
-    <ClCompile Include="linalg.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="softmax.c" />
-    <ClCompile Include="test.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="linalg.h" />
+    <ClCompile Include="lesson8\less8ques1.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
