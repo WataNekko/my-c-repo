@@ -140,7 +140,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="lesson8\less8ques1a.c" />
     <ClCompile Include="lesson8\less8ques1b.c" />
+    <ClCompile Include="lesson8\less8ques1c.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

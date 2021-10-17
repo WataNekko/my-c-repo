@@ -21,5 +21,11 @@
     <ClCompile Include="lesson8\less8ques1b.c">
       <Filter>Source Files\lesson8</Filter>
     </ClCompile>
+    <ClCompile Include="lesson8\less8ques1a.c">
+      <Filter>Source Files\lesson8</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson8\less8ques1c.c">
+      <Filter>Source Files\lesson8</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
