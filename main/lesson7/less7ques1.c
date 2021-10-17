@@ -1,6 +1,3 @@
-//#define __COMPILE__
-#ifdef __COMPILE__
-
 #include <math.h>
 #include <stdio.h>
 
@@ -85,5 +82,3 @@ int main()
 
 	return 0;
 }
-
-#endif

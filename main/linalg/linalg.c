@@ -1,6 +1,3 @@
-//#define __COMPILE__
-#ifdef __COMPILE__
-
 #include "linalg.h"
 #include <stdlib.h>
 #include <string.h>
@@ -205,5 +202,3 @@ void op_add(const size_t offset, void *vec_base, va_list args)
 	double *dest = (double *)(va_arg(args, char *) + offset);
 	*dest = *src_a + *src_b;
 }
-
-#endif

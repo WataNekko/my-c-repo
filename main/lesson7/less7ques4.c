@@ -1,6 +1,3 @@
-//#define __COMPILE__
-#ifdef __COMPILE__
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -34,5 +31,3 @@ int main()
 
 	return 0;
 }
-
-#endif

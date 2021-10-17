@@ -1,6 +1,3 @@
-//#define __COMPILE__
-#ifdef __COMPILE__
-
 #include <stdio.h>
 #include "linalg.h"
 
@@ -48,5 +45,3 @@ void print_double(const void *ptr)
 {
 	printf("%.2lf", *(const double *)ptr);
 }
-
-#endif

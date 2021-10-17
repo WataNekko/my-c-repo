@@ -14,13 +14,10 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Source Files\lesson8">
-      <UniqueIdentifier>{997d97db-5ef6-47dd-a4da-21f5f8b5ea04}</UniqueIdentifier>
+      <UniqueIdentifier>{77711f15-868d-409a-ada9-b2255258de08}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lesson8\less8ques1a.c">
-      <Filter>Source Files\lesson8</Filter>
-    </ClCompile>
     <ClCompile Include="lesson8\less8ques1b.c">
       <Filter>Source Files\lesson8</Filter>
     </ClCompile>

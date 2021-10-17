@@ -1,6 +1,3 @@
-//#define __COMPILE__
-#ifdef __COMPILE__
-
 #include <stdio.h>
 #include <math.h>
 
@@ -36,5 +33,3 @@ int main()
 		printf("%lf\n", x[i]);
 	}
 }
-
-#endif
