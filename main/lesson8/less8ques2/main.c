@@ -71,7 +71,8 @@ void save_gray_image(unsigned char gray_image[HEIGHT][WIDTH], char *file_name)
 //==================================================================================
 
 // some doc
-void to_grayscale(unsigned char result[HEIGHT][WIDTH], unsigned char color_img[HEIGHT][WIDTH][CHANNEL])
+void to_grayscale(unsigned char result[HEIGHT][WIDTH],
+				  unsigned char color_img[HEIGHT][WIDTH][CHANNEL])
 {
 	for (int i = 0; i < HEIGHT; i++) {
 		for (int j = 0; j < WIDTH; j++) {
@@ -84,7 +85,9 @@ void to_grayscale(unsigned char result[HEIGHT][WIDTH], unsigned char color_img[H
 // Subtracts color_img2 from color_img1 and stores the absolute value in result.
 // 
 // >> insert other remarks here...
-void subtract_img(unsigned char result[HEIGHT][WIDTH][CHANNEL], unsigned char color_img1[HEIGHT][WIDTH][CHANNEL], unsigned char color_img2[HEIGHT][WIDTH][CHANNEL])
+void subtract_img(unsigned char result[HEIGHT][WIDTH][CHANNEL],
+				  unsigned char color_img1[HEIGHT][WIDTH][CHANNEL],
+				  unsigned char color_img2[HEIGHT][WIDTH][CHANNEL])
 {
 	for (int i = 0; i < HEIGHT; i++) {
 		for (int j = 0; j < WIDTH; j++) {
@@ -100,9 +103,12 @@ void subtract_img(unsigned char result[HEIGHT][WIDTH][CHANNEL], unsigned char co
 // Parameters:
 //     result - the result array to store the mask into.
 //     gray_img - a grayscale image as input
-//     predicate - a pointer to a function that accepts a grayscale pixel as input and returns a boolean value (zero or non-zero) for masking.
+//     predicate - a pointer to a function that accepts a grayscale pixel as input and
+//         returns a boolean value (zero or non-zero) for masking.
 // 
-void mask(unsigned char result[HEIGHT][WIDTH], unsigned char gray_img[HEIGHT][WIDTH], int (*predicate)(unsigned char))
+void mask(unsigned char result[HEIGHT][WIDTH],
+		  unsigned char gray_img[HEIGHT][WIDTH],
+		  int (*predicate)(unsigned char))
 {
 	for (int i = 0; i < HEIGHT; i++) {
 		for (int j = 0; j < WIDTH; j++) {
@@ -121,7 +127,10 @@ int is_greater_than_40(unsigned char pixel_value)
 // Combines two images into one using a mask. If an entry in the mask contains a
 // non-zero value, the pixel from color_img1 with the same location as the entry is
 // copied to result, otherwise the pixel from color_img2 is copied.
-void combine_color_img(unsigned char result[HEIGHT][WIDTH][CHANNEL], unsigned char mask[HEIGHT][WIDTH], unsigned char color_img1[HEIGHT][WIDTH][CHANNEL], unsigned char color_img2[HEIGHT][WIDTH][CHANNEL])
+void combine_color_img(unsigned char result[HEIGHT][WIDTH][CHANNEL],
+					   unsigned char mask[HEIGHT][WIDTH],
+					   unsigned char color_img1[HEIGHT][WIDTH][CHANNEL],
+					   unsigned char color_img2[HEIGHT][WIDTH][CHANNEL])
 {
 	for (int i = 0; i < HEIGHT; i++) {
 		for (int j = 0; j < WIDTH; j++) {
