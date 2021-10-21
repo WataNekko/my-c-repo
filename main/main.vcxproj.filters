@@ -19,23 +19,6 @@
     <Filter Include="Source Files\lesson8\lib">
       <UniqueIdentifier>{38a4766f-822c-412c-a18c-27a436167127}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\lesson8\img">
-      <UniqueIdentifier>{4852b310-7e2f-4052-ae8f-d1de2c320bc7}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="lesson8\less8ques2\background4.jpg">
-      <Filter>Source Files\lesson8\img</Filter>
-    </Image>
-    <Image Include="lesson8\less8ques2\image.png">
-      <Filter>Source Files\lesson8\img</Filter>
-    </Image>
-    <Image Include="lesson8\less8ques2\pg4.jpg">
-      <Filter>Source Files\lesson8\img</Filter>
-    </Image>
-    <Image Include="lesson8\less8ques2\weather_forecast.jpg">
-      <Filter>Source Files\lesson8\img</Filter>
-    </Image>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="lesson8\less8ques2\main.c">

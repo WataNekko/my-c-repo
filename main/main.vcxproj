@@ -19,12 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="lesson8\less8ques2\background4.jpg" />
-    <Image Include="lesson8\less8ques2\image.png" />
-    <Image Include="lesson8\less8ques2\pg4.jpg" />
-    <Image Include="lesson8\less8ques2\weather_forecast.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="lesson8\less8ques2\main.c" />
   </ItemGroup>
   <ItemGroup>
