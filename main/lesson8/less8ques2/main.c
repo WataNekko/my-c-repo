@@ -7,14 +7,10 @@
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "stb_image_write.h"
 
-//// global parameters
-//const int HEIGHT = 699;
-//const int WIDTH = 964;
-//const int CHANNEL = 3;
-
-#define HEIGHT 699
-#define WIDTH 964
-#define CHANNEL 3
+// global parameters
+const int HEIGHT = 699;
+const int WIDTH = 964;
+const int CHANNEL = 3;
 
 
 
