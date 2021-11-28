@@ -1,0 +1,6 @@
+Lesson 6 (Saturday, October 9)
+Topics: Array
+Exercise:
+https://www.dropbox.com/s/uuwxa2p8xqkt0mu/Lesson%206-%20Exercises.pdf?dl=0
+Slide:
+https://www.dropbox.com/s/4eu69jsyrigqj7c/Lesson%206%20-%20Array%20and%20For%20Loop%20%28part%203%29.pdf?dl=0

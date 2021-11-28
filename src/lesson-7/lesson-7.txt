@@ -1,0 +1,6 @@
+Lesson 7 (Tuesday, October 12)
+Topics: While loop and String
+Exercise:
+https://www.dropbox.com/s/ltyjigua1uinyu3/Lesson%207-%20Exercises.pdf?dl=0
+Slide:
+https://www.dropbox.com/s/vry0he8753lpoqz/Lesson%207%20-%20While%20Loop%20and%20String.pdf?dl=0

@@ -1,0 +1,3 @@
+Lesson 10 (Friday, October 29):  Dynamic Array with Pointers
+Slide: https://www.dropbox.com/s/u779uqltrh3ye4b/Lesson%2010%20-%20Dynamic%20Array%20with%20Pointer.pdf?dl=0
+Exercise: https://www.dropbox.com/s/2msm09ojijev8o1/Lesson%2010-%20Exercises.doc?dl=0
